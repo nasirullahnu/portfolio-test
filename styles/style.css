@@ -53,6 +53,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
 
@@ -82,4 +83,32 @@ a{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: none;
+}
+
+.hero-btn2{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid orange;
+}
+
+.hero-parent h3{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.hero-parent h1{
+    color: blueviolet;
+
 }
