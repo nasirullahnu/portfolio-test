@@ -11,13 +11,20 @@ body{
 
 nav{
     display: flex;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
-    background-color:beige;
-    margin: 20px;
+    background-color:#D3D3D3;
+    margin: auto;
     padding: 10px;
+    height: 50px;
+    border-radius: 10px;
 }
 
+nav h1{
+    font-weight: bold;
+    font-size: 30px;
+}
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -31,4 +38,48 @@ a{
 
 .names{
     color: orange;
+}
+
+
+/* all buttons */
+
+.all-button{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 65px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-parent{
+    max-width: 1220px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-btns{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-btn{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
