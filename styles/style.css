@@ -1,5 +1,11 @@
 *{
     font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
 }
 
 body{
@@ -14,7 +20,6 @@ nav{
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
-    background-color:#D3D3D3;
     margin: auto;
     padding: 10px;
     height: 50px;
@@ -47,12 +52,13 @@ a{
     background-color: orange;
     color: white;
     border-radius: 5px;
-    width: 65px;
+    width: 100px;
     height: 30px;
     font-size: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     border: none;
 }
 
@@ -70,6 +76,7 @@ a{
 .hero-btns{
     display: flex;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .hero-btn{
@@ -104,11 +111,40 @@ a{
     color: orange;
     font-weight: bold;
     font-size: 20px;
-    position: absolute;
-    margin-top: 2px;
+
 }
 
 .hero-parent h1{
     color: blueviolet;
+    font-size: 40px;
 
+}
+
+
+.ppp{
+    background-color: #fffeed;
+}
+
+
+.about-section{
+    max-width: 1000px;
+    padding: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    background-color: #fffeed;
+}
+
+.about-names{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.about-names .namee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
