@@ -8,6 +8,11 @@ img{
     max-width: 100%;
 }
 
+.conainer{
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
 body{
     margin-top: 20px;
     padding: 0px;
@@ -148,3 +153,53 @@ a{
     flex-direction: column;
     align-items: center;
 }
+
+
+.what-i-do-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(252, 241, 227);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.what-i-do-parent p{
+    margin-top: 20px;
+}
+
+.card-parent{
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+    gap: 25px;
+}
+
+
+.card{
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.card .small{
+    font-size: 12px;
+}
+
+.card-button-parent{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
